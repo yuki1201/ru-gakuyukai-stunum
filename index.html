@@ -3,13 +3,14 @@
 <head>
 	<title>学生証番号チェッカー</title>
 </head>
-<body>
-<h1>立命館学生証番号チェッカー</h1>
-チェックサムを用いて、学生証番号に誤りがないかを検出します。</br>
+<body bgcolor="" text="">
+<h1 style="text-align:center;">立命館学生証番号チェッカー</h1>
+<p style="text-align:center;">チェックサムを用いて、学生証番号に誤りがないかを検出します。</br>
 一つの学生証番号に二桁以上誤りがある場合、技術的に検出できない場合があります。	</br>
 複数行の入力に対応しています。</br>
+</p>
 
-<form name="form1" id="id_form1" action="">
+<form name="form1" id="id_form1" action="" style="text-align:center;">
 <textarea name="textBox1" id="id_textBox1" type="number" rows="10" value="" /></textarea>
 </br>
 <input type="button" value="実行" onclick="onButtonClick();" />
@@ -17,7 +18,10 @@
 <div id="output_message"></div>
 </body>
 <footer class="footer">
-	</br></br>開発:<a href= "https://twitter.com/yuki12017825" >Yuuki Kimura</a>
+	</br></br>
+	<p style="text-align:right;">
+	開発:<a href= "https://twitter.com/yuki12017825" >Yuuki Kimura</a>
+	</p>
 </footer>
 </html>
 
